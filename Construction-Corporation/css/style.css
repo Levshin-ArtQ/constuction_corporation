@@ -1,100 +1,107 @@
 .nav-item{
-  color: #f3f3f3;
-  text-transform: uppercase;
-  transition: right .4s cubic-bezier(0,.5,0,1),
-  border-color .4s ease-out;
+    color: #f3f3f3;
+    text-transform: uppercase;
+    transition: right .4s cubic-bezier(0,.5,0,1),
+    border-color .4s ease-out;
 }
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+.navbar-toggler-icon {
+    color: black;
+}
+.regular-text {
+    font-size: 16px;
 }
 
 .user-image{
-  object-fit: cover;
-  height: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 .carousel-item {
-  background-size: cover;
+    background-size: cover;
 }
 .carousel-item-1 {
-  background-image: url("/img/bild1.jpg");
+    background-image: url("/img/bild1.jpg");
 }
 .carousel-item-2 {
-  background-image: url("/img/bild2.jpg");
+    background-image: url("/img/bild2.jpg");
 }
 .carousel-item-3 {
-  background-image: url("/img/bild3.jpg");
+    background-image: url("/img/bild3.jpg");
 }
 .theme-color {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 .header, .footer {
-  padding: 20px;
-  background-color: black;
-  color: white;
+    padding: 20px;
+    background-color: black;
+    color: white;
 }
 .carousel-header {
-  /*color: white;*/
-  padding: 10px 30px;
-  border-radius: 30px;
-  font-size: 30px;
-  margin: 50px 100px;
-  background-color: #f5f5f5;
-  opacity: 0.8;
+    /*color: white;*/
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 50px 100px;
+    background-color: #f5f5f5;
+    opacity: 0.8;
 }
 .carousel-item {
-  /*height: 500px;*/
-  aspect-ratio: 2/1;
+    /*height: 500px;*/
+    aspect-ratio: 2/1;
 }
 .infographic {
-  padding: 10px;
-  border-radius: 30px;
-  margin: 30px 0 50px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 30px 0 50px;
 }
 .card-wrapper {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .wood-gradient {
-  background: linear-gradient(to left, #fff, #bb977e)
+    background: linear-gradient(to left, #fff, #bb977e)
 }
 .wood-gradient:hover{
-  background: linear-gradient(to right, #fff, #bb977e)
+    background: linear-gradient(to right, #fff, #bb977e)
 }
 .metal-gradient {
-  background: linear-gradient(to left, #fff ,#ccccce)
+    background: linear-gradient(to left, #fff ,#ccccce)
 }
 .metal-gradient:hover{
-  background: linear-gradient(to right, #fff, #ccccce)
+    background: linear-gradient(to right, #fff, #ccccce)
 }
 .glass-gradient {
-  background: linear-gradient(to left, #fff ,#A9C7D1)
+    background: linear-gradient(to left, #fff ,#A9C7D1)
 }
 .glass-gradient:hover{
-  background: linear-gradient(to right, #fff, #A9C7D1)
+    background: linear-gradient(to right, #fff, #A9C7D1)
 }
 .stone-gradient-gradient {
-  background: linear-gradient(to left, #fff ,#ccccce)
+    background: linear-gradient(to left, #fff ,#ccccce)
 }
 .stone-gradient:hover{
-  background: linear-gradient(to right, #fff, #ccccce)
+    background: linear-gradient(to right, #fff, #ccccce)
 }
 .card-img-top {
-  aspect-ratio: 3/2;
-  /*todo*/
+    aspect-ratio: 3/2;
+    /*todo*/
 }
 .numbers {
-  color: #7C7D7D;
-  font-size: 40px;
-  margin-right: 5px;
+    color: #7C7D7D;
+    font-size: 40px;
+    margin-right: 5px;
 }
 .example-picture {
-  object-fit: cover;
-  border-radius: 50px;
+    object-fit: cover;
+    border-radius: 50px;
 }
 .example-text {
-  padding: 20px 50px;
+    padding: 20px 50px;
 }
 .contact-item-link{
-  color: white;
+    color: white;
 }
 
 @media (min-width: 576px) {
@@ -104,24 +111,33 @@ html {
 
 }
 @media (min-width: 768px) {
-  .carousel-header {
-    font-size: 45px;
-  }
+    .regular-text {
+        font-size: 16px;
+    }
+    .carousel-header {
+        font-size: 45px;
+    }
 }
 @media (max-width: 768px) {
 
 }
 @media (min-width: 992px) {
-  .carousel-header {
-    font-size: 55px;
-  }
+    .carousel-header {
+        font-size: 55px;
+    }
+    .numbers {
+        font-size: 45px;
+    }
+    .regular-text {
+        font-size: 22px;
+    }
 }
 @media (max-width: 992px) {
 
 }
 
 @media (min-width: 1200px) {
-  .carousel-header {
-    font-size: 65px;
-  }
+    .carousel-header {
+        font-size: 65px;
+    }
 }
